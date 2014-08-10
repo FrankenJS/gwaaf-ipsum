@@ -62,7 +62,7 @@
 				throw new Error('Invalid string to compile.');
 			}
 
-			var i, c, len;
+			var i, len;
 			var result = [];
 
 			// First: translation
