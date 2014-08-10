@@ -62,12 +62,9 @@
 				throw new Error('Invalid string to compile.');
 			}
 
-			var i, len;
+			var i = 0;
+			var len = gwaaf.length;
 			var result = [];
-
-			// First: translation
-			i = 0;
-			len = gwaaf.length;
 
 			for (; i < len; i++) {
 				str = str.replace(new RegExp(gwaaf[i][0], 'g'), gwaaf[i][1]);
