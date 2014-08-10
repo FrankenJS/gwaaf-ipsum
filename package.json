@@ -1,0 +1,36 @@
+{
+  "name": "gwaaf-ipsum",
+  "version": "0.0.1",
+  "description": "Fränkischer Ipsum Compiler",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FrankenJS/gwaaf-ipsum.git"
+  },
+  "keywords": [
+    "Franken",
+    "JavaScript",
+    "JS",
+    "LoremIpsum",
+    "Lorem",
+    "Ipsum",
+    "Lorem",
+    "Ipsum",
+    "Generator",
+    "Dialekt"
+  ],
+  "author": "Peter Müller",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FrankenJS/gwaaf-ipsum/issues"
+  },
+  "homepage": "https://github.com/FrankenJS/gwaaf-ipsum",
+  "dependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-copy": "^0.5.0",
+    "grunt-contrib-uglify": "^0.5.1"
+  }
+}
